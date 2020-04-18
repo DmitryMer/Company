@@ -183,7 +183,7 @@ main .main__welcome {
     width: 100%;
 }
 
-.main__team h1 {
+.main__team h2 {
     position: relative;
     
     padding: 100px 0 140px;
@@ -193,7 +193,7 @@ main .main__welcome {
     font-weight: 600;
 }
 
-.main__team h1:after {
+.main__team h2:after {
     content: "";
     display: block;
 
@@ -425,7 +425,7 @@ main .main__welcome {
     color: #fff;
 }
 
-.main__testimonials h1 {
+.main__testimonials h2 {
     color: #fff;
     font-size: 44px;
 
@@ -438,7 +438,7 @@ main .main__welcome {
     position: relative;
 }
 
-.main__testimonials h1:after {
+.main__testimonials h2:after {
     content: "";
     display: block;
 
@@ -453,22 +453,17 @@ main .main__welcome {
 }
 
 
-.main__testimonials h1 span {
+.main__testimonials h2 span {
     font-weight: 600;
 }
 
-.main__testimonials p {
-}
 
-.main__testimonials div {
+.main__testimonials p {
     width: 62%;
     margin: 0 auto;
 
     text-align: center;
-}
-
-.main__testimonials div p {
-    text-transform: uppercase;
+     text-transform: uppercase;
     font-size: 18px;
     padding-bottom: 50px;
 }
@@ -497,7 +492,7 @@ main .main__welcome {
     max-width: 750px;
 }
 
-.contact h1 {
+.contact h2 {
     text-align: center;
     font-size: 44px;
 
@@ -571,72 +566,5 @@ footer {
     width: 15%;
     margin: 0 auto;
     padding: 30px 0 30px;
-}
-
-
-
-
-/*МЕДИАЗАПРОСЫ 
-=====================================*/
-
-@media screen and (max-width: 1350px) {
-    nav {
-        margin-left: 25%;
-    }
-
-    .main__about {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0 auto;
-        padding: 50px 0 50px;
-    }
-
-    .about__right {
-        padding-top: 50px;
-        width: 100%;
-        text-align: center;
-        margin: 0 auto;
-    }
-
-    .about__right h1 {
-        position: relative;
-    }
-
-    .about__right h1:after {
-        position: absolute;
-
-        left: 0px;
-        bottom: 0px;
-        width: 100%;
-        height: 3px;
-        background-color: #fcac45;
- 
-         content: "";
-         display: block;
-    }
-
-    .about__right li {
-        text-align: left;
-    }
-
-    .about__right h1 {
-        font-size: 25px;
-    }
-
-    .about__right p {
-        font-size: 15px;
-        padding-top: 15px;
-    }
-
-    .main__welcome h1 {
-        font-size: 35px;
-        font-weight: 400;
-    }
-
-    .main__welcome p {
-        color: #858585;
-        font-size: 15px;
-    }
 }
 
